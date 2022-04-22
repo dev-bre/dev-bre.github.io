@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Left Stranded`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `dev-bre`,
+      summary: `A game about automation and base building.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A game about automation and base building.`,
+    siteUrl: `https://www.leftstrandedgame.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `dev_bre`,
     },
   },
   plugins: [

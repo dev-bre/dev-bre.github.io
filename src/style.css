@@ -54,12 +54,13 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
+  --color-primary: #ffffff;
+  --color-text: #fafafafa;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --color-bck: #232323;
 }
 
 /* HTML elements */
@@ -81,6 +82,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: var(--color-bck);
 }
 
 footer {
@@ -242,8 +244,12 @@ a:focus {
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
+  max-width: var(--maxWidth-full);
+}
+
+main {
   max-width: var(--maxWidth-wrapper);
-  padding: var(--spacing-10) var(--spacing-5);
+  margin: var(--spacing-0) auto;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -252,6 +258,10 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  height: 400px;
+  background-image: url("../static/capsule-header.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-heading {
