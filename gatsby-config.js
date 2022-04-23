@@ -3,7 +3,7 @@ module.exports = {
     title: `Left Stranded`,
     author: {
       name: `dev-bre`,
-      summary: `A game about automation and base building.`,
+      summary: `Solo dev building Left Stranded`,
     },
     description: `A game about automation and base building.`,
     siteUrl: `https://www.leftstrandedgame.com/`,
