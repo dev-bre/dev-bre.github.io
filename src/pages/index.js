@@ -28,8 +28,13 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
 
-
+      <div className="page_hero">
+          <img src="1500x500.jpg"  className="page_hero-image" />
+        </div>
       <div className="main-container" >
+
+       
+
         <ol style={{ listStyle: `none` }}>
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
@@ -63,7 +68,7 @@ const BlogIndex = ({ data, location }) => {
           })}
         </ol>
       </div>
-    </Layout>
+    </Layout >
   )
 }
 
