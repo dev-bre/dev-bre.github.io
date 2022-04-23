@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/devlog-1/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Left Stranded"}},"markdownRemark":{"id":"4ec2e29b-4081-55c6-9ac8-7e4a92c29c1d","excerpt":"","html":"","frontmatter":{"title":"Devlog &#35;1","date":"April 23, 2022","description":"New devlog for Left Stranded game, factory automation and base building game."}},"previous":{"fields":{"slug":"/my-second-post/"},"frontmatter":{"title":"My Second Post!"}},"next":null},"pageContext":{"id":"4ec2e29b-4081-55c6-9ac8-7e4a92c29c1d","previousPostId":"9023ce51-6d61-564d-9f73-d4ffa04b9819","nextPostId":null}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
